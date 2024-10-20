@@ -6,7 +6,7 @@ files=os.listdir("../src")
 for file in files:
     exe_name=None
     if sys.platform=="win32":
-        exe_name=file[:-3]+".exe"
+        exe_name=file[:-3]+"exe"
     else:
         exe_name=file[:-3]
 
